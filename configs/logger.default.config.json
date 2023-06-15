@@ -1,0 +1,7 @@
+{
+  "consoleLog": {
+    "enabled": true
+  },
+  "logTimestampFormat": "HH:mm:ss",
+  "configFileName": "./configs/logger.config.json"
+}
