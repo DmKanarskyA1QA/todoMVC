@@ -1,0 +1,40 @@
+{
+  "name": "todoMVC web autoamtion",
+  "version": "1.0.0",
+  "author": "Dmitry Kanarsky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmKanarskyA1QA/todoMVC.git"
+  },
+  "scripts": {
+    "test:chrome": "npx wdio configs/wdio.chrome.conf.js --cucumberOpts.tagExpression='@automated'",
+    "test:firefox": "npx wdio configs/wdio.firefox.conf.js --cucumberOpts.tagExpression='@automated'"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "@wdio/cli": "^8.11.0",
+    "@wdio/cucumber-framework": "^8.11.0",
+    "@wdio/devtools-service": "^8.11.0",
+    "@wdio/local-runner": "^8.11.0",
+    "@wdio/selenium-standalone-service": "^8.11.0",
+    "@wdio/spec-reporter": "^8.11.0",
+    "chai": "^4.3.6",
+    "chromedriver": "114.0.0",
+    "geckodriver": "^4.0.4",
+    "cucumber-html-reporter": "^5.5.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-wdio": "^7.25.3",
+    "fs-extra": "^11.0.0",
+    "randomstring": "^1.3.0",
+    "typescript": "^4.8.3",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-cucumberjs-json-reporter": "^5.1.0",
+    "wdio-geckodriver-service": "^5.0.1",
+    "wdio-iexplorerdriver-service": "^1.0.2",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-plugin-wdio": "^7.25.3"
+  }
+}
