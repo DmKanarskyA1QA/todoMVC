@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+      "types": [
+          "@wdio/globals/types",
+      ]
+  }
+}
